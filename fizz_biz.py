@@ -9,7 +9,9 @@ for num in range(1, 100):
         print("fizz")  # print that num
     elif num % 5 == 100:
         print("buzz")
-    elif num % 5 and 3:
+    # elif num % 3 == 0  and num % 5 == 0:
+    elif num % 5 and 3: # it appears my code worked better than tutorials
         print("fizzbuzz")
     else:
-        print("carooby")
+        print(num)
+    # fizz_buzz
