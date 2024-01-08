@@ -61,8 +61,10 @@
 # for i in fruits:
 #     print(i + " or bacon") # simply concatinating
 # all the numbers between 0 and 10 that are divisible by 3
-for num in range (0, 10, 3): # range function divisible by 3
-     if num % 3 == 0:  # if the num is divisible by 3
-        print(num)  # print that num
+# for num in range (0, 10, 3): # range function divisible by 3
+#      if num % 3 == 0:  # if the num is divisible by 3
+#         print(num)  # print that num
+
+
 
 
