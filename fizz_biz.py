@@ -35,9 +35,18 @@
 # evening_greeting(user_name)
 '''
 '''
-ip = input("what is the target ip address? ")
+# ip = input("what is the target ip address? ")
 
-def nmap(ip):
-    print(f"Attacking {ip}")
+# def nmap(ip):
+#     print(f"Attacking {ip}")
     
-nmap(ip)
+# nmap(ip)
+
+
+
+# Create a greeting
+# Create your word list
+# Randomly choose a word from the list you have created
+# ask the user to guess a letter
+# bonus: make the program take the input from the user and make it lowercase
+# check if the letter is in the word
