@@ -7,7 +7,11 @@
 
 # For Loop
 
-str = 'Looping'
+# str = 'Looping'
 
-for item in str:
-    print(item)
+# for item in str:
+#     print(item)
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Turamisu', 'Ice-Box Cake']
+
+for item in favorites:
+    print('Looping ..', item)
