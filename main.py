@@ -42,16 +42,16 @@ city they are from.
 The output should look like: Your new twitter handle and bio is @cyberfred from NYC
 
 # '''
-# tw_pre = "@cyber"
-# pet_name = input("What is your pet name? ")
-# new_pet = tw_pre + pet_name
-# city_name = input("What city are you from? ")
+tw_pre = "@cyber"
+pet_name = input("What is your pet name? ")
+new_pet = tw_pre + pet_name
+city_name = input("What city are you from? ")
 
-# print(f"Your new twitter handle and bio are {new_pet } + "{(str)}from " +  {city_name}")
-# print("Your new twitter name is " + new_pet + " from " + city_name)
-# print(f"Your new twitter name is @cyber{pet_name} from {city_name}")
+print(f"Your new twitter handle and bio are {new_pet } + "{(str)}from " +  {city_name}")
+print("Your new twitter name is " + new_pet + " from " + city_name)
+print(f"Your new twitter name is @cyber{pet_name} from {city_name}")
 
-# Data Types:
+Data Types:
 # the type variable is a built-in variable to inform us what we are dealing with
 # strings:
 # print(type("Hello World"))
