@@ -11,7 +11,17 @@
 
 # for item in str:
 #     print(item)
+
+
 favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Turamisu', 'Ice-Box Cake']
 
-for item in favorites:
-    print('Looping ..', item)
+for idx, item in enumerate(favorites):
+    print(idx, item)
+
+# idx is typically short for INDEX
+
+# count = 0
+
+# while count < len(favorites):
+#     print('I like this desert', favorites[count])
+#     count += 1
