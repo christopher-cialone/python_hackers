@@ -64,4 +64,6 @@
 # print(round((time.time() - start_time), 2))
 
 
-    
+a = isinstance(str, "aa")
+
+print(a)  
