@@ -42,11 +42,26 @@
 
 # Loop Control Statements
 # Break
-favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+# favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
 
-for dessert in favorites:
-    if dessert == 'Churros':
-        print('Yes one of my favorite desserts is', dessert)
-        break 
-    else:
-        print('No sorry, not a dessert on my list')
+# for dessert in favorites:
+#     if dessert == 'Churros':
+#         print('Yes one of my favorite desserts is', dessert)
+#         break 
+#     else:
+#         print('No sorry, not a dessert on my list')
+
+# import time
+# start_time = time.time()
+# '''Nested Loops'''
+# # outer loop
+# for x in range(450):
+#     print(x)
+#     # inner loop
+#     for j in range(10):
+#         print(0, end = " ")
+#     print( )
+# print(round((time.time() - start_time), 2))
+
+
+    
