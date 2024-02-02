@@ -13,10 +13,10 @@
 #     print(item)
 
 
-favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Turamisu', 'Ice-Box Cake']
+# favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Turamisu', 'Ice-Box Cake']
 
-for idx, item in enumerate(favorites):
-    print(idx, item)
+# for idx, item in enumerate(favorites):
+#     print(idx, item)
 
 # idx is typically short for INDEX
 
@@ -25,3 +25,28 @@ for idx, item in enumerate(favorites):
 # while count < len(favorites):
 #     print('I like this desert', favorites[count])
 #     count += 1
+
+# Controlling Loops - 
+# Control Statements
+    # Break
+    # Continue
+    # Pass
+
+# favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+
+# for dessert in favorites:
+#     if dessert == 'Pudding':
+#         print('Yes one of my favorite desserts is', dessert) 
+#     else:
+#         print('No sorry, that dessert is not on my list')
+
+# Loop Control Statements
+# Break
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+
+for dessert in favorites:
+    if dessert == 'Churros':
+        print('Yes one of my favorite desserts is', dessert)
+        break 
+    else:
+        print('No sorry, not a dessert on my list')
