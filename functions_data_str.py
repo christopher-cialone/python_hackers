@@ -35,3 +35,11 @@ def fn1():
     fn2()
 
 fn1()
+# '''
+#     Innermost function has access to everything from the outside. 
+#     You can access the enclosed varable at this level and then also access the global variable
+#     at the outer level. 
+#     The same rules apply from the outside
+#     The nested i
+
+# '''
