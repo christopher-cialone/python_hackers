@@ -1,0 +1,45 @@
+# First-Repo
+# JTC Foundations: 
+
+This is the very first commit we have made together as a class
+
+## Table of Contents
+- [What is Git](#git)
+- [What is a repository?](#repo)
+- [Terminal](#terminal)
+- [Cloning](#cloning)
+- [Git add, commit and push](#git_commands)
+
+## What is Git
+Git as a time machine for your code. It allows you to take snapshots of your project at different points in time, 
+so if something goes wrong, you can go back to a previous version. This is really helpful when working on a 
+project with others or when you want to experiment with new features without worrying about breaking your code.
+
+## What is a Repository?
+A Git repository, or repo for short, is like a folder that contains all the files and the history of changes 
+for a project. It's where Git stores all the snapshots of your code and keeps track of the changes you make
+over time. When you create a new project in Git, you're essentially creating a new repository to track 
+its progress.
+
+## Terminal
+The terminal, also known as a command line interface or shell, is a text-based interface used to interact
+with the operating system of a computer. It allows users to input text commands to perform various tasks, 
+such as navigating the file system, running programs, managing files, and executing system utilities.
+
+## Cloning
+It's like downloading a project from the internet to your computer.
+git clone: This command is used to create a copy of a repository from GitHub onto your local machine. 
+You use this command when you want to start working on a project that already exists on GitHub.
+
+## Git add, commit, and push
+(#git add): This command is used to tell Git which files you want to include in the next snapshot of your 
+project. It's like adding files to a box before you ship it. You use this command when you've made 
+changes to your files and you want to prepare them to be saved in the next snapshot.
+
+(#git commit) This command is used to save the changes you've made to your files into the Git repository. 
+It's like taking a snapshot of your project at a specific point in time. When you commit your changes,
+ you're creating a new version of your project with those changes included.
+ 
+(#git push) This command is used to upload the changes you've committed on your local machine to a remote 
+repository, such as GitHub. It's like sending your snapshots to the cloud so that others can see and work 
+with them. You use this command when you want to share your changes with others or back up your work on GitHub.
