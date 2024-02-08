@@ -1,11 +1,11 @@
-# First we declare a variable called str
-# Recall that string in Python is a sequence
-# Because a string is a sequence it can be iterated over
-# A sequence is just an ordered set
-# The variable item is essentially just a plaeholder that will store the current letter in sequence
-# You can access any character in the sequence by its INDEX
+# # First we declare a variable called str
+# # Recall that string in Python is a sequence
+# # Because a string is a sequence it can be iterated over
+# # A sequence is just an ordered set
+# # The variable item is essentially just a plaeholder that will store the current letter in sequence
+# # You can access any character in the sequence by its INDEX
 
-# For Loop
+# # For Loop
 
 # str = 'Looping'
 
@@ -28,28 +28,28 @@
 
 # Controlling Loops - 
 # Control Statements
-    # Break
-    # Continue
-    # Pass
+#     Break
+#     Continue
+#     Pass
 
-# favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
 
-# for dessert in favorites:
-#     if dessert == 'Pudding':
-#         print('Yes one of my favorite desserts is', dessert) 
-#     else:
-#         print('No sorry, that dessert is not on my list')
+for dessert in favorites:
+    if dessert == 'Pudding':
+        print('Yes one of my favorite desserts is', dessert) 
+    else:
+        print('No sorry, that dessert is not on my list')
 
 # Loop Control Statements
 # Break
-# favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
 
-# for dessert in favorites:
-#     if dessert == 'Churros':
-#         print('Yes one of my favorite desserts is', dessert)
-#         break 
-#     else:
-#         print('No sorry, not a dessert on my list')
+for dessert in favorites:
+    if dessert == 'Churros':
+        print('Yes one of my favorite desserts is', dessert)
+        break 
+    else:
+        print('No sorry, not a dessert on my list')
 
 # import time
 # start_time = time.time()
@@ -64,6 +64,6 @@
 # print(round((time.time() - start_time), 2))
 
 
-a = isinstance(str, "aa")
+# a = isinstance(str, "aa")
 
-print(a)  
+# print(a)  
