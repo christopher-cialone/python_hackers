@@ -1,8 +1,10 @@
 Big O: 
 a fundamental concept in computer science and programming
 that helps you analyze and describe the efficiency of algorithms.
+
 Big O is a mathematical notation that describes the upper bound 
 or worst case scenario for the time complexity of an alogorithm.
+
 How does the runtime of an algorithm change as the imput data increases?
 How does an algorithm scale with increased input size?
 
