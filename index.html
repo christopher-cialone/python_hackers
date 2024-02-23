@@ -12,6 +12,10 @@
         .button{
            padding: 2px 32px; 
         }
+        .button:hover {
+            border: 1px solid black;
+            border-radius: 5px;
+        }
         #plusBtn:hover {
             background-color: green;
             color: white;
@@ -23,9 +27,26 @@
     </style>
 </head>
 <body>
-    <input type="number" value="0" readonly>
-    <input class = "button" id="plusBtn" type="button" value="+">
-    <input class = "button" id="minusBtn" type="button" value="-">
+    <input id= "counter" type="number" value="0" readonly>
+    <input onclick="addNumber()" class="button" id="plusBtn" type="button" value="+">
+    <input onclick=subtractNumber()" class="button" id="minusBtn" type="button" value="-">
+    <script type="text/javascript">
+
+        let counter = document.getElementById("counter");
+        let plusBtn = document.getElementById("plusBtn");
+        let minusBtn = document.getElementById("minusBtn");
+        
+
+        function addNumber() {
+            counter.value = counter + 1;
+        }
+        
+        function subtractNumber() {
+            counter.value = counter - 1;
+        }
+        // console.log(plusBtn);
+        // console.log(minusBtn);
+    </script>
     
 </body>
 </html>

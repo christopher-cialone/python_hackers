@@ -9,7 +9,8 @@ class Recipe():
               " and takes " + str(self.time) + " min to prepare ")
 
 pizza = Recipe("Pizza", ["cheese", "bread", "tomoato"], 45)
-pasta = Recipe("Pizza", ["penne", "sauce", ], 55)
+pasta = Recipe("Pizza", ["penne", "sauce", ], 55)pwd
+
 
 print(pizza.items)
 print(pasta.items)
