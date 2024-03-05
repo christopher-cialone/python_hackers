@@ -11,7 +11,18 @@ Local: this is where the first search for a vairable is in the local scope
 Enclosed: this is defined inside an enclosing or nested function
 Global: is defined at the upper most level or simply outside functions
 Built-In which is the keywords present in the built-in module
-A variable declared inside a function is local, and the ones outside the scope of any function generally are global
+A variable declared inside a function is local, and the ones outside the 
+scope of any function generally are global
 
 Working with global variables as a default technique can turn our code into 
 "Spaghetti Code" - named because it is messy 
+
+There are 2 keywords that can be used to change the scope of the
+variables: Global and Non-Local:
+
+    1. The Global keyword helps us access tge global variables from within the function. 
+
+    2. Non-Local is a special type of scope defined in Python, that is used within
+    the nested functions only in the condition tha it has been defined earlier in the enclosed 
+    functions
+
