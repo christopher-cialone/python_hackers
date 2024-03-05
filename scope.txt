@@ -12,3 +12,6 @@ Enclosed: this is defined inside an enclosing or nested function
 Global: is defined at the upper most level or simply outside functions
 Built-In which is the keywords present in the built-in module
 A variable declared inside a function is local, and the ones outside the scope of any function generally are global
+
+Working with global variables as a default technique can turn our code into 
+"Spaghetti Code" - named because it is messy 
