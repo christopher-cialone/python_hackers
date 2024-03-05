@@ -1,0 +1,14 @@
+Scope determines where your name is visible and directly accessible in your program
+
+There are four different scopes in python:
+    1. Built-in    
+    2. Global
+    3. Enclosed
+    4. Local
+
+LEGB Rule: Scope Resolution
+Local: this is where the first search for a vairable is in the local scope
+Enclosed: this is defined inside an enclosing or nested function
+Global: is defined at the upper most level or simply outside functions
+Built-In which is the keywords present in the built-in module
+A variable declared inside a function is local, and the ones outside the scope of any function generally are global
